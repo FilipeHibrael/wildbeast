@@ -98,6 +98,25 @@ img {
 
 .content {
     grid-area: content;
+    display: grid;
+    gap: 30px;
+    grid-template-columns: 1fr 1fr;
+    max-width: 900px;
+    padding: 30px;
+    margin: 0 auto;
+}
+
+.col-wide {
+    grid-column: 1 / -1;
+}
+
+.imagem-1 {
+    grid-row: span 2;
+    align-self: end;
+}
+
+.imagem-2 {
+    align-self: end;
 }
 
 /* Anuncios */
